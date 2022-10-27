@@ -19,6 +19,9 @@
     position: absolute;
     top: 75%;
     width: 98%;
-    height: 25%;
+    /*height: 25%;*/
     user-select: none;
+    background: linear-gradient(rgba(0,128,255,1),rgba(0,128,255,0.1),rgba(0,128,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
