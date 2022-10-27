@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1200"
+   height="200"
+   viewBox="0 0 317.49999 52.916667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="addressName.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="1200px"
+     height="300px"
+     inkscape:zoom="0.825"
+     inkscape:cx="612.12121"
+     inkscape:cy="107.27273"
+     inkscape:window-width="1366"
+     inkscape:window-height="670"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6627">
+      <stop
+         style="stop-color:#0080ff;stop-opacity:1;"
+         offset="0"
+         id="stop6623" />
+      <stop
+         style="stop-color:#0080ff;stop-opacity:0;"
+         offset="1"
+         id="stop6625" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6627"
+       id="linearGradient6629"
+       x1="159.51141"
+       y1="15.410508"
+       x2="159.51141"
+       y2="37.606388"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="AddName"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:22.5778px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:url(#linearGradient6629);fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="159.07533"
+       y="32.764252"
+       id="text1152"
+       inkscape:label="Name"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583;fill-opacity:1;fill:url(#linearGradient6629)"
+         x="159.07533"
+         y="32.764252"
+         id="tspan1154">mplotus.github.io</tspan></text>
+  </g>
+</svg>
