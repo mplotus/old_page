@@ -41,7 +41,7 @@
     
 }
 /* For tablet & desktop */
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:540px) {
     #home-logo {
         position: absolute;
         top: 0;
