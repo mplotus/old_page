@@ -3,18 +3,60 @@
     height: 50%;
     object-fit: cover;
 }
-#home-logo {
+#logo-media {
     position: absolute;
     top: 34%;
-    left: 10%;
-    width: height;
-    height: 32%;
+    left: 0;
+    width: 100%;
+    height: 46%;
+    /*background-color: aquamarine;*/
 }
-#address-name {
+#body-page {
     position: absolute;
-    top: 50%;
-    left: 30%;
-    width: 70%;
-    height: 16%;
-    object-fit: cover;
+    top: 80%;
+}
+/* For mobile */
+#home-logo {
+    position: absolute;
+    top: 0;
+    left: calc(50vw - 16vh);
+    height: 32vh;
+    width: height;
+}
+#home-name {
+    font-size: 250%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 32vh;
+    width: 100vw;
+    height: 14vh;
+    left: 0;
+    background: linear-gradient(rgba(0,128,255,1),rgba(0,128,255,0.25),rgba(0,128,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+/* For tablet & desktop */
+@media only screen and (min-width:768px) {
+    #home-logo {
+        position: absolute;
+        top: 0;
+        left: 8vw;
+        height: 32vh;
+        width: height;
+    }
+    #home-name {
+        font-size: 250%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: right;
+        position: absolute;
+        top: 14vh;
+        width: 50vw;
+        left: 48vw;
+    }
 }
