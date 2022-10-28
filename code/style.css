@@ -38,7 +38,7 @@
     /*height: 14vh;*/
     left: 0;
     text-shadow: 4px 4px 8px rgba(20,20,20,0.15);
-    background: linear-gradient(rgba(0,220,255,1),rgba(0,220,255,0.1),rgba(0,220,255,1));
+    background: linear-gradient(rgba(0,128,255,1),rgba(0,128,255,0.15),rgba(0,128,255,1));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -63,32 +63,8 @@
         left: 35vw;
     }
 }
-.ex-button {
-    background-color: rgba(20,120,160);
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-}
-.ex-button:hover {
-    background-color: rgba(50,160,200);
-}
-.active {
-    background-color: rgba(0,100,140);
-}
-.ex-content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out;
-    background-color: rgba(240,250,255);
-}
 #info-bar {
-    background: rgba(128,220,255,1);
+    background: rgba(200,220,255,1);
     margin-top: 2vh;
     padding: 0.4%;
     width: 99.2%;
