@@ -14,15 +14,18 @@ function page_load() {
         twoDigit(mDate.getMonth() + 1) + '' + twoDigit(mDate.getFullYear()%100);
     inf_bar.innerHTML = 'Update code: ' + mCode + '<br>Gmail: mplotus.github.io@gmail.com<br>Mobile: 0395.480.387';
     var _fols = document.getElementsByClassName('folder');
-    for(i=0;i<_fols.length;i++) {
-        _fols[i].addEventListener('click',fols_click);
+    var _fcon = document.getElementsByClassName('nested');
+    if(_fols.length == _fcon.length) {
+        for(i=0;i<_fols.length;i++) {
+            _fols[i].addEventListener('click',fols_click);
+            var spName = _fols[i].innerText.toLowerCase().replace(/ /g,'_');
+            _fcon[i].id = spName;
+        }
     }
+    else alert('Error when load content!');
 }
 
 function fols_click() {
-    this.parentElement.querySelector('.nested').classList.toggle('shown');
-    /*var fols = document.getElementsByClassName('folder');
-    for(i=0;i<fols.length;i++) {
-        alert(fols[i].innerText);
-    }*/
+    var spName = this.innerText.toLowerCase().replace(/ /g,'_');
+    document.getElementById(spName).classList.toggle('shown');
 }
