@@ -13,4 +13,16 @@ function page_load() {
     mCode += twoDigit(mDate.getDate()) + '' + 
         twoDigit(mDate.getMonth() + 1) + '' + twoDigit(mDate.getFullYear()%100);
     inf_bar.innerHTML = 'Update code: ' + mCode + '<br>Gmail: mplotus.github.io@gmail.com<br>Mobile: 0395.480.387';
+    var _fols = document.getElementsByClassName('folder');
+    for(i=0;i<_fols.length;i++) {
+        _fols[i].addEventListener('click',fols_click);
+    }
+}
+
+function fols_click() {
+    this.parentElement.querySelector('.nested').classList.toggle('shown');
+    /*var fols = document.getElementsByClassName('folder');
+    for(i=0;i<fols.length;i++) {
+        alert(fols[i].innerText);
+    }*/
 }

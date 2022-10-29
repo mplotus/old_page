@@ -43,6 +43,14 @@
     -webkit-text-fill-color: transparent;
     
 }
+#left-page {
+    float: left;
+    width:100%;
+}
+#right-page {
+    float: left;
+    width:100%;
+}
 /* For tablet & desktop */
 @media only screen and (min-width:600px) {
     #home-logo {
@@ -62,8 +70,36 @@
         width: 63vw;
         left: 35vw;
     }
+    #left-page {
+        width: 75%;
+    }
+    #right-page {
+        width: 25%;
+    }
+}
+ul {
+    list-style-type: none;
+}
+li {
+    user-select: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    padding: 1%;
+    color: rgba(0,128,255,1);
+}
+li:hover {
+    color: rgba(0,96,192,1);
+}
+.nested {
+    display: none;
+}
+.shown {
+    display: block;
 }
 #info-bar {
+    float: left;
     background: rgba(200,220,255,1);
     margin-top: 2vh;
     padding: 0.4%;
