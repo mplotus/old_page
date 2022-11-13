@@ -4,15 +4,28 @@
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: #04041f;
+    background-color: rgba(4,4,31,0.9);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 .left_navigator {
     width: 0vw;
     height: 100%;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 .left_nav_show {
-    width: calc(100vw - 35px);
+    width: calc(100vw - 24px);
+}
+@media only screen and (min-width: 784px) {
+    .left_nav_show {
+        width: 35vw;
+    }
+}
+.left_arrow {
+    transition: 0.5s ease;
+}
+.left_arr_rotate {
+    transform: rotate(180deg);
 }
 #left_name {
     width: 100%;
@@ -28,16 +41,39 @@
     overflow: auto;
 }
 #left_show {
-    width: 25px;
+    width: 20px;
     height: 100%;
     font-weight: bold;
-    font-size: 180%;
+    font-size: 140%;
+    text-align: center;
     background-color: #070733;
     color: #f0f0ff;
     cursor: pointer;
 }
-@media only screen and (min-width: 850px) {
-    .left_nav_show {
-        width: 35vw;
+#home_wall {
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0px;
+    object-fit: cover;
+}
+#home_logo {
+    position: absolute;
+    width: 32vw;
+    height: width;
+    top: calc(25vh - 16vw);
+    left: calc(50vw - 16vw);
+}
+@media only screen and (min-width: 768px) {
+    #home_logo {
+        position: absolute;
+        height: 32vh;
+        width: height;
+        top: 10vh;
+        left: 8vw;
     }
 }
