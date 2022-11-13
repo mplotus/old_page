@@ -1,112 +1,43 @@
-#home-wallpaper {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
-#logo-media {
-    position: absolute;
-    top: 34%;
-    left: 0;
-    width: 100%;
-    height: 46%;
-    /*background-color: aquamarine;*/
-}
-#body-page {
-    position: absolute;
-    top: 82vh;
-    left: 0;
-    width: 100%;
-}
-/* For mobile */
-#home-logo {
-    position: absolute;
+#left_panel {
+    position: fixed;
+    height: 100%;
     top: 0;
-    left: calc(50vw - 16vh);
-    height: 32vh;
-    width: height;
-}
-#home-name {
-    font-size: 250%;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-    position: absolute;
-    top: 32vh;
-    width: 100vw;
-    /*height: 14vh;*/
     left: 0;
-    text-shadow: 4px 4px 8px rgba(20,20,20,0.15);
-    background: linear-gradient(rgba(0,128,255,1),rgba(0,128,255,0.15),rgba(0,128,255,1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+    z-index: 2;
+    background-color: #04041f;
 }
-#left-page {
-    float: left;
-    width:100%;
+.left_navigator {
+    width: 0vw;
+    height: 100%;
+    transition: 1s ease;
 }
-#right-page {
-    float: left;
-    width:100%;
+.left_nav_show {
+    width: calc(100vw - 35px);
 }
-/* For tablet & desktop */
-@media only screen and (min-width:600px) {
-    #home-logo {
-        position: absolute;
-        top: 0;
-        left: 8vw;
-        height: 32vh;
-        width: height;
-    }
-    #home-name {
-        font-size: 250%;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: right;
-        position: absolute;
-        top: 14vh;
-        width: 63vw;
-        left: 35vw;
-    }
-    #left-page {
-        width: 75%;
-    }
-    #right-page {
-        width: 25%;
-    }
-}
-ul {
-    list-style-type: none;
-}
-li {
-    user-select: none;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+#left_name {
+    width: 100%;
+    overflow: hidden;
+    font-size: 160%;
     font-weight: bold;
-    padding: 1%;
-    color: rgba(0,128,255,1);
-}
-li:hover {
-    color: rgba(0,96,192,1);
-}
-.nested {
-    display: none;
-}
-.shown {
-    display: block;
-}
-#info-bar {
-    float: left;
-    background: rgba(200,220,255,1);
-    margin-top: 2vh;
-    padding: 0.4%;
-    width: 99.2%;
-    font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: smaller;
-    text-align: center;
-    line-height: 1.4;
+    color: #f0f0ff;
+}
+#left_tree {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#left_show {
+    width: 25px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 180%;
+    background-color: #070733;
+    color: #f0f0ff;
+    cursor: pointer;
+}
+@media only screen and (min-width: 850px) {
+    .left_nav_show {
+        width: 35vw;
+    }
 }

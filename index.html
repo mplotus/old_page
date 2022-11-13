@@ -1,81 +1,24 @@
 <html>
     <head>
-        <title>MPLOTUS.GITHUB.IO</title>
-        <link rel='icon' type='image/x-icon' href='imgs/lotus.ico'>
-        <link rel='stylesheet' href='code/style.css'>
+        <title>mplotus.github.io Homepage</title>
+        <link rel="icon" type="images/x-icon" href="./imgs/lotus.ico">
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <script language='javascript' src='code/script.js'></script>
+        <script type="text/javascript" src="./code/script.js"></script>
+        <link rel="stylesheet" href="./code/style.css">
     </head>
-    <body onload='page_load()'>
-        <a href='https://en.wikipedia.org/wiki/Mongolia'><img src='imgs/Mongolia.jpg' id='home-wallpaper' alt='Wallpaper'></a>
-        <table id='logo-media'>
-            <tr>
-                <td>
-                    <img src='imgs/logo.svg' id='home-logo' alt='Logo'>
-                    <h1 id='home-name'><a href='https://mplotus.github.io'>mplotus.github.io</a></h1>
-                </td>
-            </tr>
-        </table>
-        <form id='body-page'>
-            <div id='left-page'>
-                <h1 style='font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-left: 1%; user-select: none;'>
-                    Welcome to mplotus.github.io !</h1>
-                <ul class='shown'>
-                    <li class='folder'>BACKUP SOFTWARE</li>
-                    <ul class='nested'>
-                        <li class='folder'>OFFICES</li>
-                        <ul class='nested'>
-                            <li>Office 365</li>
-                            <li>Office 2019</li>
-                            <li>Office 2016</li>
-                            <li>Office 2013</li>
-                        </ul>
-                        <li>ACCESSORY</li>
-                        <li class='folder'>WINDOWS OS</li>
-                        <ul class='nested'>
-                            <li>Windows 11</li>
-                            <li>Windows 10</li>
-                            <li>Windows 8.1</li>
-                            <li>Windows 7</li>
-                        </ul>
-                        <li>UBUNTU OS</li>
-                    </ul>
-                    <li class='folder'>BACKUP PRINTER DRIVER</li>
-                    <ul class='nested'>
-                        <li>BROTHER</li>
-                        <li>CANON</li>
-                        <li>HEWLET-PAKAGE</li>
-                    </ul>
-                    <li class='folder'>WEB APPLICATIONS</li>
-                    <ul class='nested'>
-                        <li><a href='https://mplotus.github.io/lunarcalendar'>
-                            <img src='https://mplotus.github.io/lunarcalendar/imgs/calendar.ico' alt='LunarCalendar' width='20px' height='20px'>
-                            Lunar Calendar</a>
-                        </li>
-                        <li><a href='https://mplotus.github.io/equations'>
-                            <img src='https://mplotus.github.io/equations/imgs/calc.ico' alt='Equations' width='20px' height='20px'>
-                            Equations Calculator</a>
-                        </li>
-                        <li><a href='https://mplotus.github.io/ncascript'>
-                            <img src='https://mplotus.github.io/ncascript/imgs/language.ico' alt='NCAScript' width='20px' height='20px'>
-                            North and Central Asian Script</a>
-                        </li>
-                        <li><a href='https://mplotus.github.io/tone-chord-finder'>
-                            <img src='https://mplotus.github.io/tone-chord-finder/imgs/mnote2.ico' alt='TCFinder' width='20px' height='20px'>
-                            Music Tone and Chord Finder</a>
-                        </li>
-                        <li><a href='https://mplotus.github.io/colorspace'>
-                            <img src='https://mplotus.github.io/colorspace/imgs/colspace.ico' alt='ColSpace' width='20px' height='20px'>
-                            Color Space Converter</a>
-                        </li>
-                    </ul>
-                </ul>
-            </div>
-            <div id='right-page'>
-                Right panel initial...
-            </div>
-            <div id='info-bar'>
-            </div>
-        </form>
+    <body onload="page_load()">
+        <div id="left_panel">
+            <table style="width: 100%; height: 100%;">
+                <tr>
+                    <td>
+                        <div class="left_navigator">
+                            <div id="left_name">mplotus.github.io<br>Homepage</div>
+                            <div id="left_tree"></div>
+                        </div>
+                    </td>
+                    <td id="left_show" onclick="left_show_click()"><div id="left_arrow">&#x25b6;</div></td>
+                </tr>
+            </table>
+        </div>
     </body>
 </html>
