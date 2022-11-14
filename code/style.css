@@ -21,12 +21,6 @@
         width: 35vw;
     }
 }
-.left_arrow {
-    transition: 0.5s ease;
-}
-.left_arr_rotate {
-    transform: rotate(180deg);
-}
 #left_name {
     width: 100%;
     overflow: hidden;
@@ -43,12 +37,17 @@
 #left_show {
     width: 20px;
     height: 100%;
-    font-weight: bold;
-    font-size: 140%;
     text-align: center;
     background-color: #070733;
-    color: #f0f0ff;
     cursor: pointer;
+}
+.left_arrow {
+    font-weight: bold;
+    color: #f0f0ff;
+    transition: 0.5s ease;
+}
+.left_arr_rotate {
+    transform: rotate(180deg);
 }
 #home_wall {
     position: fixed;
@@ -63,17 +62,17 @@
 }
 #home_logo {
     position: absolute;
-    width: 32vw;
+    width: 120px;
     height: width;
-    top: calc(25vh - 16vw);
-    left: calc(50vw - 16vw);
+    top: calc(25vh - 60px);
+    left: calc(50vw - 60px);
 }
 @media only screen and (min-width: 768px) {
     #home_logo {
         position: absolute;
-        height: 32vh;
+        height: 120px;
         width: height;
-        top: 10vh;
+        top: calc(25vh - 60px);
         left: 8vw;
     }
 }
