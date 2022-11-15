@@ -1,3 +1,6 @@
+body {
+    background-color: #f5f5f5;
+}
 #left_panel {
     position: fixed;
     height: 100%;
@@ -17,7 +20,7 @@
 .left_nav_show {
     width: calc(100vw - 24px);
 }
-@media only screen and (min-width: 784px) {
+@media only screen and (min-width: 768px) {
     .left_nav_show {
         width: 35vw;
     }
@@ -53,7 +56,7 @@
     transform: rotate(180deg);
 }
 #home_wall {
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 25%;
     top: 0;
@@ -79,8 +82,60 @@
         left: 8%;
     }
 }
+#body_page {
+    position: absolute;
+    top: calc(25% + 60px);
+    left: 30px;
+    width: calc(100% - 60px);
+    height: 150%;
+    background-color: #5986b3;
+    user-select: none;
+    border: 5px solid #0080ff;
+}
+#address_bar {
+    width: calc(100% - 16px);
+    height: auto;
+    padding: 8px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0080ff;
+}
+#address_label {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+#address_path {
+    font-style: italic;
+}
+#addstick_bar {
+    position: fixed;
+    z-index: 7;
+    width: calc(100% - 72px);
+    height: auto;
+    top: 0;
+    left: 30px;
+    padding: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0080ff;
+    user-select: none;
+    display: none;
+}
+#addstick_label {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+#addstick_path {
+    font-style: italic;
+}
 #about_label {
-    z-index: 10;
+    z-index: 9;
     position: fixed;
     width: 60px;
     height: 30px;
@@ -102,9 +157,9 @@
     height: 65px;
     left: calc(100% - 23px);
     top: calc(100% - 65px);
-    z-index: 9;
+    z-index: 8;
     user-select: none;
-    background-color: rgba(14,99,156,0.9);
+    background-color: rgba(14,99,156,0.6);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition: 0.5s ease;
