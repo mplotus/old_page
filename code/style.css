@@ -105,9 +105,11 @@ body {
     font-style: italic;
     text-decoration: underline;
     margin-right: 8px;
+    color: #f0f0ff;
 }
 #address_path {
     font-style: italic;
+    color: #f0f0ff;
 }
 #addstick_bar {
     position: fixed;
@@ -130,9 +132,11 @@ body {
     font-style: italic;
     text-decoration: underline;
     margin-right: 8px;
+    color: #f0f0ff;
 }
 #addstick_path {
     font-style: italic;
+    color: #f0f0ff;
 }
 #about_label {
     z-index: 9;
