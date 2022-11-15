@@ -25,6 +25,7 @@
 #left_name {
     width: 100%;
     overflow: hidden;
+    white-space: nowrap;
     font-size: 160%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -79,7 +80,7 @@
     }
 }
 #about_label {
-    z-index: 2;
+    z-index: 10;
     position: fixed;
     width: 60px;
     height: 30px;
@@ -101,7 +102,7 @@
     height: 65px;
     left: calc(100% - 23px);
     top: calc(100% - 65px);
-    z-index: 1;
+    z-index: 9;
     user-select: none;
     background-color: rgba(14,99,156,0.9);
     backdrop-filter: blur(5px);
