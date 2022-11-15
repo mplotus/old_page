@@ -3,7 +3,7 @@ const page_load = () => {
     left_navigator = document.getElementsByClassName('left_navigator')[0];
     left_arrow = document.getElementsByClassName('left_arrow')[0];
     about_content = document.getElementsByClassName('about_content')[0];
-    alert(window.innerWidth + ' x ' + window.innerHeight);
+    document.getElementById('about_info').innerText = window.innerWidth + ' x ' + window.innerHeight;
 }
 const left_show_click = () => {
     left_navigator.classList.toggle('left_nav_show');
