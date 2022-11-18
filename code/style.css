@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f5f5;
+    background-color: white;
 }
 #left_panel {
     position: fixed;
@@ -15,6 +15,7 @@ body {
 .left_navigator {
     width: 0vw;
     height: 100%;
+    overflow: auto;
     transition: 0.5s ease;
 }
 .left_nav_show {
@@ -33,9 +34,25 @@ body {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #f0f0ff;
+    padding-left: 10px;
 }
 #left_contain {
-    width: calc(100% - 2px);
+    width: 100%;
+    /*overflow: auto;*/
+    margin-top: 20px;
+}
+.btt_dirs {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f0ff;
+}
+.btt_dirs:hover {
+    color: darkgray;
 }
 #left_show {
     width: 20px;
