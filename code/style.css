@@ -15,7 +15,7 @@ body {
 .left_navigator {
     width: 0vw;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     transition: 0.5s ease;
 }
 .left_nav_show {
@@ -36,10 +36,13 @@ body {
     color: #f0f0ff;
     padding-left: 10px;
 }
-#left_contain {
-    width: 100%;
-    /*overflow: auto;*/
+#left_cover {
+    width: 98%;
     margin-top: 20px;
+    overflow: auto;
+}
+#left_contain {
+    width: 99%;
 }
 .btt_dirs {
     cursor: pointer;
@@ -52,7 +55,9 @@ body {
     color: #f0f0ff;
 }
 .btt_dirs:hover {
-    color: darkgray;
+    background-color: rgba(0,128,255,0.6);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 #left_show {
     width: 20px;
