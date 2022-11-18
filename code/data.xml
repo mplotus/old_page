@@ -40,12 +40,12 @@
     </folder>
     <folder id="Web Applications">
         <file id="Lunar Calendar">
-            <link>mplotus.github.io/lunarcalendar</link>
-            <icon>mplotus.github.io/lunarcalendar/imgs/calendar.ico</icon>
+            <link>https://mplotus.github.io/lunarcalendar</link>
+            <icon>https://mplotus.github.io/lunarcalendar/imgs/calendar.ico</icon>
         </file>
         <file id="Equations">
-            <link>mplotus.github.io/equations</link>
-            <icon>mplotus.github.io/equations/imgs/calc.ico</icon>
+            <link>https://mplotus.github.io/equations</link>
+            <icon>https://mplotus.github.io/equations/imgs/calc.ico</icon>
         </file>
         <file id="Color Spaces Converter">
             <link>https://mplotus.github.io/colorspace</link>

@@ -124,11 +124,11 @@ body {
     font-style: italic;
     text-decoration: underline;
     padding-left: 30px;
-    margin-right: 8px;
     color: #f0f0ff;
 }
 #address_path {
     padding-right: 30px;
+    padding-left: 10px;
     font-style: italic;
     color: #f0f0ff;
 }
@@ -153,11 +153,11 @@ body {
     font-style: italic;
     text-decoration: underline;
     padding-left: 30px;
-    margin-right: 8px;
     color: #f0f0ff;
 }
 #addstick_path {
     padding-right: 30px;
+    padding-left: 10px;
     font-style: italic;
     color: #f0f0ff;
 }
