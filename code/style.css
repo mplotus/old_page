@@ -34,12 +34,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #f0f0ff;
 }
-#left_tree {
-    width: 100%;
-    height: 100%; /* Khong on */
-    overflow: auto;
-    background-color: #0080ff;
-    color: white;
+#left_contain {
+    width: calc(100% - 2px);
 }
 #left_show {
     width: 20px;

@@ -1,4 +1,55 @@
 <?xml version="1.0"?>
 <root id="/">
-    
+    <folder id="Computer Drivers">
+        <folder id="Brother Printers">
+        </folder>
+        <folder id="Canon Printers">
+        </folder>
+        <folder id="Epson Printers">
+        </folder>
+        <folder id="Hewlet Package Printers">
+        </folder>
+        <folder id="Ricoh Printers">
+        </folder>
+        <folder id="Samsung Printers">
+        </folder>
+    </folder>
+    <folder id="Software Backup">
+        <folder id="Archive">
+        </folder>
+        <folder id="Multimedia">
+        </folder>
+        <folder id="Operation Systems">
+            <folder id="macOS">
+            </folder>
+            <folder id="Ubuntu">
+            </folder>
+            <folder id="Windows">
+            </folder>
+        </folder>
+        <folder id="Offices">
+            <folder id="Kingsoft">
+            </folder>
+            <folder id="Libre">
+            </folder>
+            <folder id="Microsoft">
+            </folder>
+            <folder id="PDF/Scan/Print">
+            </folder>
+        </folder>
+    </folder>
+    <folder id="Web Applications">
+        <file id="Lunar Calendar">
+            <link>mplotus.github.io/lunarcalendar</link>
+            <icon>mplotus.github.io/lunarcalendar/imgs/calendar.ico</icon>
+        </file>
+        <file id="Equations">
+            <link>mplotus.github.io/equations</link>
+            <icon>mplotus.github.io/equations/imgs/calc.ico</icon>
+        </file>
+        <file id="Color Spaces Converter">
+            <link>https://mplotus.github.io/colorspace</link>
+            <icon>https://mplotus.github.io/colorspace/imgs/colspace.ico</icon>
+        </file>
+    </folder>
 </root>

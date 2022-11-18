@@ -26,6 +26,10 @@ const left_show_click = () => {
     left_navigator.classList.toggle('left_nav_show');
     left_arrow.classList.toggle('left_arr_rotate');
     // Load data from xml to left panel
+    let nameWidth = document.getElementById('left_name').offsetHeight;
+    let leftContain = document.getElementById('left_contain');
+    leftContain.style.height = 'calc(100% - ' + (nameWidth + 8).toString() + 'px)';
+    
 
 }
 const about_label_click = () => {
