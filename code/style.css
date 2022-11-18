@@ -36,8 +36,10 @@ body {
 }
 #left_tree {
     width: 100%;
-    height: 100%;
+    height: 100%; /* Khong on */
     overflow: auto;
+    background-color: #0080ff;
+    color: white;
 }
 #left_show {
     width: 20px;
@@ -85,15 +87,14 @@ body {
 #body_page {
     position: absolute;
     top: calc(25% + 60px);
-    left: 30px;
-    width: calc(100% - 60px);
+    left: 0;
+    width: 100%;
     height: 150%;
-    background-color: #5986b3;
+    background-color: white;
     user-select: none;
-    border: 5px solid #0080ff;
 }
 #address_bar {
-    width: calc(100% - 16px);
+    width: 100%;
     height: auto;
     padding: 8px;
     font-size: 100%;
@@ -104,26 +105,28 @@ body {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
+    padding-left: 30px;
     margin-right: 8px;
     color: #f0f0ff;
 }
 #address_path {
+    padding-right: 30px;
     font-style: italic;
     color: #f0f0ff;
 }
 #addstick_bar {
     position: fixed;
     z-index: 7;
-    width: calc(100% - 72px);
+    width: 100%;
     height: auto;
     top: 0;
-    left: 30px;
+    left: 0;
     padding: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0080ff;
+    background-color: rgba(0,128,255,0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     user-select: none;
     display: none;
 }
@@ -131,10 +134,12 @@ body {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
+    padding-left: 30px;
     margin-right: 8px;
     color: #f0f0ff;
 }
 #addstick_path {
+    padding-right: 30px;
     font-style: italic;
     color: #f0f0ff;
 }
@@ -163,7 +168,7 @@ body {
     top: calc(100% - 65px);
     z-index: 8;
     user-select: none;
-    background-color: rgba(14,99,156,0.6);
+    background-color: rgba(0,128,255,0.6);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition: 0.5s ease;
