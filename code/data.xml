@@ -2,8 +2,20 @@
 <root id="/">
     <folder id="Computer Drivers">
         <folder id="Brother Printers">
+            <file id="MFC 2701 Series">
+                <link> drive.google.com/brother/2701s</link>
+                <icon>#printer</icon>
+            </file>
         </folder>
         <folder id="Canon Printers">
+            <file id="LBP 2900">
+                <link> drive.google.com/canon/2900</link>
+                <icon>#printer</icon>
+            </file>
+            <file id="LBP 6010">
+                <link> drive.google.com/canon/6010s</link>
+                <icon>#printer</icon>
+            </file>
         </folder>
         <folder id="Epson Printers">
         </folder>
@@ -13,6 +25,10 @@
         </folder>
         <folder id="Samsung Printers">
         </folder>
+        <file id="USB-Wifi">
+            <link>drive.google.com/usb-wifi</link>
+            <icon>#usb</icon>
+        </file>
     </folder>
     <folder id="Software Backup">
         <folder id="Archive">

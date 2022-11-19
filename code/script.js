@@ -39,6 +39,7 @@ const page_load = () => {
             }
         })
     });
+    load_directory('/');
 }
 const page_scroll = () => {
     var addBarTop = 0.25 * window.innerHeight + 60;
@@ -48,10 +49,10 @@ const page_scroll = () => {
         document.getElementById('addstick_bar').style.display = 'none';
     change_path(selectedPath);
 }
-const change_path = _str => {
-    if(_str!='' && _str !=NaN) {
-        document.getElementById('addstick_path').innerText = _str;
-        document.getElementById('address_path').innerText = _str;
+const change_path = _path => {
+    if(_path!='' && _path !=NaN) {
+        document.getElementById('addstick_path').innerText = _path;
+        document.getElementById('address_path').innerText = _path;
     }
 }
 const left_show_click = () => {
@@ -81,16 +82,101 @@ const btt_dir_click = e => {
     }
     selectedPath = prTitle;
     change_path(selectedPath);
+    load_directory(selectedPath);
+}
+const parent_click = () => {
+    if(selectedPath != '/') {
+        let arrPath = extrPath(selectedPath);
+        if(arrPath.toString()!='NaN') {
+            arrPath.pop();
+            selectedPath = ('/' + arrPath.toString().replace(',','/')).replace('//','/');
+            change_path(selectedPath);
+            load_directory(selectedPath);
+        }
+    }
+}
+const load_directory = _path => {
+    let arrPath = extrPath(selectedPath);
+    fetch('./code/data.xml').then((res) => {
+        res.text().then((xml) => {
+            let parser = new DOMParser();
+            let _root = parser.parseFromString(xml, 'application/xml').querySelector('root');
+            let _dir = _root;
+            for(i=0;i<arrPath.length;i++) {
+                for(j=0;j<_dir.children.length;j++) {
+                    if(_dir.children[j].id == arrPath[i]) {
+                        _dir = _dir.children[j];
+                    }
+                }
+            }
+            let _linkPage = document.getElementsByClassName('link_page')[0];
+            while(_linkPage.childNodes.length>0) {
+                _linkPage.removeChild(_linkPage.childNodes[0]);
+            }
+            for(i=0;i<_dir.children.length;i++) {
+                let _file = _dir.children[i];
+                if(_file.nodeName == 'folder') {
+                    let _dirItem = document.createElement('div');
+                    _dirItem.classList.add('link_item');
+                    _dirItem.title = _file.id;
+                    // Icon for directory
+                    let _dirIcon = document.createElement('img');
+                    _dirIcon.style.width = '64px';
+                    _dirIcon.style.height = '64px';
+                    _dirIcon.alt = 'No Icon';
+                    _dirIcon.src = './imgs/idir.svg';
+                    _dirItem.appendChild(_dirIcon);
+                    // Label for directory
+                    let _dirText = document.createElement('div');
+                    _dirText.classList.add('link_text');
+                    _dirText.innerText = _file.id;
+                    _dirItem.appendChild(_dirText);
+                    _dirItem.addEventListener('click', e => {
+                        selectedPath += '/' + e.currentTarget.title;
+                        selectedPath = selectedPath.replace('//','/');
+                        change_path(selectedPath);
+                        load_directory(selectedPath);
+                    });
+                    _linkPage.appendChild(_dirItem);
+                }
+                if(_file.nodeName == 'file') {
+                    let _linkItem = document.createElement('a');
+                    _linkItem.classList.add('link_item');
+                    _linkItem.title = _file.id;
+                    _linkItem.href = _file.children[0].innerHTML;
+                    _linkItem.target = '_blank';
+                    // Icon for item
+                    let _linkIcon = document.createElement('img');
+                    _linkIcon.style.width = '64px';
+                    _linkIcon.style.height = '64px';
+                    _linkIcon.alt = 'No Icon';
+                    if(_file.children[1].innerHTML.substring(0,1) == '#') {
+                        _linkIcon.src = './imgs/logo.svg';
+                    }
+                    else {
+                        _linkIcon.src = _file.children[1].innerHTML;
+                    }
+                    _linkItem.appendChild(_linkIcon);
+                    // Label for item
+                    let _linkText = document.createElement('div');
+                    _linkText.classList.add('link_text');
+                    _linkText.innerText = _file.id;
+                    _linkItem.appendChild(_linkText);
+                    _linkPage.appendChild(_linkItem);
+                }
+            }
+        })
+    });
 }
 const extrPath = _path => {
     if(_path.substring(0,1)!='/') return NaN;
     else {
         let arrPath = new Array();
         let iChr = 1;
-        for(i=1;i<_path.length;i++) {
-            if(_path.substring(i,i+1)=='/') {
-                arrPath.push(_path.substring(iChr, i));
-                iChr = i+1;
+        for(t=1;t<_path.length;t++) {
+            if(_path.substring(t,t+1)=='/') {
+                arrPath.push(_path.substring(iChr, t));
+                iChr = t+1;
             }
         }
         arrPath.push(_path.substring(iChr, _path.length));
@@ -99,8 +185,8 @@ const extrPath = _path => {
 }
 const cntSplash = _path => {
     let nSpl = 0;
-    for(i=0;i<_path.length;i++) {
-        if(_path.substring(i,i+1)=='/') nSpl++;
+    for(k=0;k<_path.length;k++) {
+        if(_path.substring(k,k+1)=='/') nSpl++;
     }
     return nSpl;
 }

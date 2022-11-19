@@ -107,9 +107,8 @@ body {
     top: calc(25% + 60px);
     left: 0;
     width: calc(100% - 18px);
-    height: 150%;
+    height: auto;
     background-color: white;
-    user-select: none;
 }
 #address_bar {
     width: 100%;
@@ -118,6 +117,7 @@ body {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0080ff;
+    user-select: none;
 }
 #address_label {
     font-weight: bold;
@@ -125,6 +125,7 @@ body {
     text-decoration: underline;
     padding-left: 30px;
     color: #f0f0ff;
+    cursor: pointer;
 }
 #address_path {
     padding-right: 30px;
@@ -154,12 +155,56 @@ body {
     text-decoration: underline;
     padding-left: 30px;
     color: #f0f0ff;
+    cursor: pointer;
 }
 #addstick_path {
     padding-right: 30px;
     padding-left: 10px;
     font-style: italic;
     color: #f0f0ff;
+}
+.link_page {
+    width: calc(99% - 40px);
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media only screen and (min-width: 540px) {
+    .link_page {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .link_page {
+        display: grid;
+        grid-template-columns: 33% 34% 33%;
+        gap: 10px;
+    }
+}
+.link_item {
+    background-color: white;
+    cursor: pointer;
+    min-height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px;
+}
+.link_item:hover {
+    border: 1px solid #0080ff;
+}
+.link_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    user-select: all;
 }
 #about_label {
     z-index: 9;
