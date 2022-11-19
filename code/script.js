@@ -151,7 +151,9 @@ const load_directory = _path => {
                     _linkIcon.style.height = '64px';
                     _linkIcon.alt = 'No Icon';
                     if(_file.children[1].innerHTML.substring(0,1) == '#') {
-                        _linkIcon.src = './imgs/logo.svg';
+                        let _iconName = _file.children[1].innerHTML;
+                        if(_iconName == '#printer') _linkIcon.src = './imgs/iprinter.svg';
+                        else _linkIcon.src = './imgs/iundefine.svg';
                     }
                     else {
                         _linkIcon.src = _file.children[1].innerHTML;
