@@ -76,4 +76,8 @@
             <icon>https://mplotus.github.io/tone-chord-finder/imgs/mnote2.ico</icon>
         </file>
     </folder>
+    <file id="Tips and Tricks">
+        <link>https://mplotus.github.io/tips</link>
+        <icon>#TipsAndTricks</icon>
+    </file>
 </root>
