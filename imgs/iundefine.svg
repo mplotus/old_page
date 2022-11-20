@@ -26,7 +26,7 @@
      units="px"
      width="1200px"
      inkscape:zoom="1.65"
-     inkscape:cx="141.21212"
+     inkscape:cx="136.36364"
      inkscape:cy="131.21212"
      inkscape:window-width="1366"
      inkscape:window-height="670"
@@ -41,21 +41,21 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:#0080ff;stroke-width:1.32292;fill-opacity:1"
+       style="fill:#0080ff;fill-opacity:1;stroke-width:1.32292"
        id="path14401"
        cx="33.866665"
        cy="33.866665"
        r="31.75" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:70.5556px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="20.370472"
-       y="57.280849"
+       style="font-style:normal;font-weight:normal;font-size:69.3811px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.260179"
+       x="18.570972"
+       y="57.178169"
        id="text1637"><tspan
          sodipodi:role="line"
          id="tspan1635"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.5556px;font-family:Navilu;-inkscape-font-specification:Navilu;stroke-width:0.264583;fill:#ffffff"
-         x="20.370472"
-         y="57.280849">?</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.3811px;font-family:Navilu;-inkscape-font-specification:Navilu;fill:#ffffff;stroke-width:0.260179"
+         x="18.570972"
+         y="57.178169">?</tspan></text>
   </g>
 </svg>

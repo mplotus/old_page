@@ -27,7 +27,7 @@
         </folder>
         <file id="USB-Wifi">
             <link>drive.google.com/usb-wifi</link>
-            <icon>#usb</icon>
+            <icon>#zip</icon>
         </file>
     </folder>
     <folder id="Software Backup">
@@ -66,6 +66,14 @@
         <file id="Color Spaces Converter">
             <link>https://mplotus.github.io/colorspace</link>
             <icon>https://mplotus.github.io/colorspace/imgs/colspace.ico</icon>
+        </file>
+        <file id="North and Center Asian Transcriptor">
+            <link>https://mplotus.github.io/ncascript</link>
+            <icon>https://mplotus.github.io/ncascript/imgs/language.ico</icon>
+        </file>
+        <file id="Music Tone and Chord Finder">
+            <link>https://mplotus.github.io/tone-chord-finder</link>
+            <icon>https://mplotus.github.io/tone-chord-finder/imgs/mnote2.ico</icon>
         </file>
     </folder>
 </root>
