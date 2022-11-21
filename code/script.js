@@ -152,10 +152,14 @@ const load_directory = _path => {
                     _linkIcon.alt = 'No Icon';
                     if(_file.children[1].innerHTML.substring(0,1) == '#') {
                         let _iconName = _file.children[1].innerHTML;
-                        if(_iconName == '#printer') _linkIcon.src = './imgs/iprinter.svg';
-                        else if(_iconName == '#image') _linkIcon.src = './imgs/iwim.svg';
-                        else if(_iconName == '#zip') _linkIcon.src = './imgs/izip.svg';
-                        else if(_iconName == '#lock' || _iconName == '#security') _linkIcon.src = './imgs/ilock.svg';
+                        if(_iconName == '#printer') 
+                            _linkIcon.src = './imgs/iprinter.svg';
+                        else if(_iconName == '#image') 
+                            _linkIcon.src = './imgs/iwim.svg';
+                        else if(_iconName == '#zip' || _iconName == '#rar' || _iconName == '#7z') 
+                            _linkIcon.src = './imgs/izip.svg';
+                        else if(_iconName == '#lock' || _iconName == '#security') 
+                            _linkIcon.src = './imgs/ilock.svg';
                         else _linkIcon.src = './imgs/iundefine.svg';
                     }
                     else {
