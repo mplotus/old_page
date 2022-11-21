@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mplotus.github.io Security Page</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+                user-select: none;
+            }
+            h1 {
+                left: 0;
+                width: 98%;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 8px;
+                font-weight: bold;
+                font-style: italic;
+                background-color: #0080ff;
+                color: white;
+            }
+            table {
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 50px;
+                margin-right: 50px;
+                border-collapse: collapse;
+            }
+            th {
+                text-align: center;
+                background-color: #3f3f3f;
+                color: white;
+                padding: 5px;
+            }
+            td {
+                padding: 5px;
+            }
+            td.link {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+            td.center {
+                text-align: center;
+            }
+            #black_screen {
+                position: fixed;
+                background-color: rgba(0,0,0,0.5);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+            #login_form {
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+                margin-top: 35vh;
+                margin-bottom: auto;
+                height: 20%;
+                padding: 10px;
+            }
+        </style>
+        <script type="text/javascript">
+            let _pass = '';
+            function pass_enter(event) {
+                if(event.keyCode == 8) {
+                    _pass = _pass.substring(0, _pass.length - 2);
+                }
+                else if(event.keyCode == 13) {
+                    if(_pass == '000111000') {
+                        document.getElementById('black_screen').style.display = 'none';
+                    }
+                }
+                else if(event.keyCode >=37 && event.keyCode <=40) {}
+                else {
+                    _pass += String.fromCharCode(event.keyCode);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="black_screen">
+            <div id="login_form">
+                <p>Enter <span style="font-weight: bold; text-decoration: underline; color: red;">SOS</span>
+                    morse code (0 - short, 1 - long):</p>
+                <div style="width: 100%; text-align: center;">
+                    <input type="password" id="login_text" onkeyup="pass_enter(event)"></div>
+            </div>
+        </div>
+        <h1>SECURITY PAGE</h1>
+        <table>
+            <tr>
+                <th>Accounts</th>
+                <th>Modify month</th>
+                <th>Keyword</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>mplotus.github.io@gmail.com</td>
+                <td class="center">1122</td>
+                <td class="center">Google</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>wsv.mplotus@gmail.com</td>
+                <td class="center">1222</td>
+                <td class="center">GDrive</td>
+                <td class="link">Show content</td>
+            </tr>
+        </table>
+        <p style="margin-left: 50px; margin-right: 50px;"><b>Password for account:</b> <i>&#x3c;Modify month&#x3e;&#x3c;Keyword&#x3e;&#x3c;Security code: 098*****49&#x3e;</i></p>
+    </body>
+</html>

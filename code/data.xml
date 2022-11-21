@@ -41,6 +41,34 @@
             <folder id="Ubuntu">
             </folder>
             <folder id="Windows">
+                <file id="Windows 7 32bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 7 64bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 8.1 32bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 8.1 64bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 10 1909 32bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 10 1909 64bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
+                <file id="Windows 11 64bit">
+                    <link></link>
+                    <icon>#imag</icon>
+                </file>
             </folder>
         </folder>
         <folder id="Offices">
@@ -51,6 +79,32 @@
             <folder id="Microsoft">
             </folder>
             <folder id="PDF-Scan-Print">
+            </folder>
+        </folder>
+    </folder>
+    <folder id="Computer Technique and Development">
+        <folder id="Server">
+            <folder id="Windows Server">
+                <file id="Windows Server 2003">
+                    <link>https://drive.google.com/file/d/1KbWEtT39uq9fUvIzkc5umsHoRhkHPGBl/view?usp=sharing</link>
+                    <icon>#image</icon>
+                </file>
+                <file id="Windows Server 2008">
+                    <link>https://drive.google.com/file/d/1wxpni9KvQm7frWC4HqaBVyjUOSSNxcEQ/view?usp=share_link</link>
+                    <icon>#image</icon>
+                </file>
+                <file id="Windows Server 2012">
+                    <link>https://drive.google.com/file/d/17vltkDRbNMU_SACbQvAYj8RSSPpVrvQD/view?usp=sharing</link>
+                    <icon>#image</icon>
+                </file>
+                <file id="Windows Server 2016">
+                    <link>https://drive.google.com/file/d/1WKc5fJVdgdEB1KxggV9Oi-Kx9Qw8C2gN/view?usp=share_link</link>
+                    <icon>#image</icon>
+                </file>
+                <file id="Windows Server 2019">
+                    <link>https://drive.google.com/file/d/1eqmz4FXnc5HSBkv_Z1eWujRSBg2O07ld/view?usp=share_link</link>
+                    <icon>#image</icon>
+                </file>
             </folder>
         </folder>
     </folder>
@@ -81,7 +135,7 @@
         <icon>#TipsAndTricks</icon>
     </file>
     <file id="Security">
-        <link>https://mplotus.github.io/tips/accounts</link>
+        <link>https://mplotus.github.io/accounts</link>
         <icon>#lock</icon>
     </file>
 </root>
