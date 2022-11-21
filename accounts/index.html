@@ -27,6 +27,7 @@
                 margin-bottom: 0;
                 margin-left: 50px;
                 margin-right: 50px;
+                width: auto;
                 border-collapse: collapse;
             }
             th {
@@ -38,12 +39,14 @@
             td {
                 padding: 5px;
             }
-            td.link {
-                cursor: pointer;
-                text-decoration: underline;
-            }
             td.center {
                 text-align: center;
+            }
+            tr.parent {
+                background-color: #808080;
+                font-weight: bold;
+                font-style: italic;
+                color: white;
             }
             #black_screen {
                 position: fixed;
@@ -99,19 +102,31 @@
                 <th>Accounts</th>
                 <th>Modify month</th>
                 <th>Keyword</th>
-                <th></th>
             </tr>
             <tr>
                 <td>mplotus.github.io@gmail.com</td>
                 <td class="center">1122</td>
                 <td class="center">Google</td>
-                <td></td>
             </tr>
-            <tr>
+            <tr class="parent">
                 <td>wsv.mplotus@gmail.com</td>
                 <td class="center">1222</td>
                 <td class="center">GDrive</td>
-                <td class="link">Show content</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Windows_Server_2008_x64.iso, Windows_Server_2016_x64.iso, Windows_Server_2019_x64.iso
+                </td>
+            </tr>
+            <tr class="parent">
+                <td>wsr.mplotus@gmail.com</td>
+                <td class="center">1222</td>
+                <td class="center">GDrive</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Windows_Server_2003_x64_SP2_R2_Datacenter.iso, Windows_Server_2012_x64.iso
+                </td>
             </tr>
         </table>
         <p style="margin-left: 50px; margin-right: 50px;"><b>Password for account:</b> <i>&#x3c;Modify month&#x3e;&#x3c;Keyword&#x3e;&#x3c;Security code: 098*****49&#x3e;</i></p>
