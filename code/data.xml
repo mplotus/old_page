@@ -80,4 +80,8 @@
         <link>https://mplotus.github.io/tips</link>
         <icon>#TipsAndTricks</icon>
     </file>
+    <file id="Security">
+        <link>https://mplotus.github.io/tips/accounts</link>
+        <icon>#lock</icon>
+    </file>
 </root>
