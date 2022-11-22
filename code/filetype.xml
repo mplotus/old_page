@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+    <type id="">./imgs/iundefine.svg</type>
+    <type id="#dir">./imgs/idir.svg</type>
+    <type id="#printer">./imgs/iprinter.svg</type>
+    <type id="#iso">./imgs/iwim.svg</type>
+    <type id="#wim">./imgs/iwim.svg</type>
+    <type id="#zip">./imgs/izip.svg</type>
+    <type id="#rar">./imgs/izip.svg</type>
+    <type id="#7z">./imgs/izip.svg</type>
+    <type id="#lock">./imgs/ilock.svg</type>
+    <type id="#security">./imgs/ilock.svg</type>
+</root>

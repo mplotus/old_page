@@ -1,5 +1,6 @@
 var left_navigator, left_arrow, about_content, address_path;
 var selectedPath = '';
+var _arrFileType;
 const page_load = () => {
     left_navigator = document.getElementsByClassName('left_navigator')[0];
     left_arrow = document.getElementsByClassName('left_arrow')[0];
@@ -36,6 +37,16 @@ const page_load = () => {
                 else btt_dir.style.display = 'none';
                 btt_dir.addEventListener('click', btt_dir_click);
                 leftContain.appendChild(btt_dir);
+            }
+        })
+    });
+    _arrFileType = new Array();
+    fetch('./code/filetype.xml').then(res => {
+        res.text().then(xml => {
+            let _parser = new DOMParser();
+            let _types = _parser.parseFromString(xml, 'application/xml').querySelectorAll('type');
+            for(i=0; i<_types.length; i++) {
+                _arrFileType.push([_types[i].id, _types[i].innerHTML]);
             }
         })
     });
@@ -124,7 +135,7 @@ const load_directory = _path => {
                     _dirIcon.style.width = '64px';
                     _dirIcon.style.height = '64px';
                     _dirIcon.alt = 'No Icon';
-                    _dirIcon.src = './imgs/idir.svg';
+                    _dirIcon.src = _arrFileType[1][1];
                     _dirItem.appendChild(_dirIcon);
                     // Label for directory
                     let _dirText = document.createElement('div');
@@ -152,15 +163,13 @@ const load_directory = _path => {
                     _linkIcon.alt = 'No Icon';
                     if(_file.children[1].innerHTML.substring(0,1) == '#') {
                         let _iconName = _file.children[1].innerHTML;
-                        if(_iconName == '#printer') 
-                            _linkIcon.src = './imgs/iprinter.svg';
-                        else if(_iconName == '#image') 
-                            _linkIcon.src = './imgs/iwim.svg';
-                        else if(_iconName == '#zip' || _iconName == '#rar' || _iconName == '#7z') 
-                            _linkIcon.src = './imgs/izip.svg';
-                        else if(_iconName == '#lock' || _iconName == '#security') 
-                            _linkIcon.src = './imgs/ilock.svg';
-                        else _linkIcon.src = './imgs/iundefine.svg';
+                        for(k=2;k<_arrFileType.length;k++) {
+                            if(_iconName == _arrFileType[k][0]) {
+                                _linkIcon.src = _arrFileType[k][1];
+                                break;
+                            }
+                            else _linkIcon.src = _arrFileType[0][1];
+                        }
                     }
                     else {
                         _linkIcon.src = _file.children[1].innerHTML;
