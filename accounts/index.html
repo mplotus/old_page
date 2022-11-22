@@ -2,133 +2,32 @@
 <html>
     <head>
         <title>mplotus.github.io Security Page</title>
-        <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 0;
-                padding: 0;
-                user-select: none;
-            }
-            h1 {
-                left: 0;
-                width: 98%;
-                margin-left: 0;
-                margin-right: 0;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding: 8px;
-                font-weight: bold;
-                font-style: italic;
-                background-color: #0080ff;
-                color: white;
-            }
-            table {
-                margin-top: 0;
-                margin-bottom: 0;
-                margin-left: 50px;
-                margin-right: 50px;
-                width: auto;
-                border-collapse: collapse;
-            }
-            th {
-                text-align: center;
-                background-color: #3f3f3f;
-                color: white;
-                padding: 5px;
-            }
-            td {
-                padding: 5px;
-            }
-            td.center {
-                text-align: center;
-            }
-            tr.parent {
-                background-color: #808080;
-                font-weight: bold;
-                font-style: italic;
-                color: white;
-            }
-            #black_screen {
-                position: fixed;
-                background-color: rgba(0,0,0,0.5);
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(5px);
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                display: block;
-            }
-            #login_form {
-                margin-left: auto;
-                margin-right: auto;
-                width: 40%;
-                margin-top: 35vh;
-                margin-bottom: auto;
-                height: 20%;
-                padding: 10px;
-            }
-        </style>
-        <script type="text/javascript">
-            let _pass = '';
-            function pass_enter(event) {
-                if(event.keyCode == 8) {
-                    _pass = _pass.substring(0, _pass.length - 2);
-                }
-                else if(event.keyCode == 13) {
-                    if(_pass == '000111000') {
-                        document.getElementById('black_screen').style.display = 'none';
-                    }
-                }
-                else if(event.keyCode >=37 && event.keyCode <=40) {}
-                else {
-                    _pass += String.fromCharCode(event.keyCode);
-                }
-            }
-        </script>
+        <link rel="stylesheet" href="./code/style.css">
+        <script type="text/javascript" src="./code/script.js"></script>
     </head>
-    <body>
+    <body onload="page_load()">
         <div id="black_screen">
             <div id="login_form">
                 <p>Enter <span style="font-weight: bold; text-decoration: underline; color: red;">SOS</span>
                     morse code (0 - short, 1 - long):</p>
                 <div style="width: 100%; text-align: center;">
-                    <input type="password" id="login_text" onkeyup="pass_enter(event)"></div>
+                    <input type="password" id="login_text"></div><br>
+                <div style="width: 100%; text-align: center;">
+                    <button id="btt_unlock" style="cursor: pointer;" onclick="pass_enter()">Unlock</button></div>
             </div>
         </div>
         <h1>SECURITY PAGE</h1>
-        <table>
-            <tr>
-                <th>Accounts</th>
-                <th>Modify month</th>
-                <th>Keyword</th>
-            </tr>
-            <tr>
-                <td>mplotus.github.io@gmail.com</td>
-                <td class="center">1122</td>
-                <td class="center">Google</td>
-            </tr>
-            <tr class="parent">
-                <td>wsv.mplotus@gmail.com</td>
-                <td class="center">1222</td>
-                <td class="center">GDrive</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    Windows_Server_2008_x64.iso, Windows_Server_2016_x64.iso, Windows_Server_2019_x64.iso
-                </td>
-            </tr>
-            <tr class="parent">
-                <td>wsr.mplotus@gmail.com</td>
-                <td class="center">1222</td>
-                <td class="center">GDrive</td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    Windows_Server_2003_x64_SP2_R2_Datacenter.iso, Windows_Server_2012_x64.iso
-                </td>
-            </tr>
-        </table>
-        <p style="margin-left: 50px; margin-right: 50px;"><b>Password for account:</b> <i>&#x3c;Modify month&#x3e;&#x3c;Keyword&#x3e;&#x3c;Security code: 098*****49&#x3e;</i></p>
+        <div class="table_cover inner_body table_title">
+            <div>Account</div>
+            <div style="text-align: center;">Keycode</div>
+            <div></div>
+        </div>
+        <div class="inner_body" id="body_page"></div>
+        <p class="inner_body"><b>Password for account:</b> <i>&#x3c;Keycode&#x3e;&#x3c;Security code: 098*****49&#x3e;</i></p>
+        <p class="inner_body"><i>&#x3c;Keycode&#x3e; &#x3d; &#x3c;Modify month&#x3e;&#x3c;Keytype&#x3e;</i></p>
+        <p class="inner_body"><i>&#x3c;Keytype&#x3e; &#x3d; Google or GDrive</i></p>
+        <p class="inner_body"><i>Format of modify month: mmyy (example December 2022 &#x3d;> 1222),
+            with day less than 20 is that month and day more than or equals 20 is that month + 1
+            (example 19th December 2022 &#x3d;> 1222, 20th December 2022 &#x3d;> 0123)</i></p>
     </body>
 </html>

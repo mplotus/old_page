@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root>
+    <name id="mplotus.github.io" class="1122Google"></name>
+    <name id="d01.server.mplotus" class="1222GDrive">
+        <folder>Windows Server</folder>
+        <file>Windows_Server_2008_x64.iso</file>
+        <file>Windows_Server_2016_x64.iso</file>
+        <file>Windows_Server_2019_x64.iso</file>
+    </name>
+    <name id="d02.server.mplotus" class="1222GDrive">
+        <folder>Windows Server</folder>
+        <file>Windows_Server_2003_x64_SP2_R2_Datacenter.iso</file>
+        <file>Windows_Server_2012_x64.iso</file>
+    </name>
+</root>
