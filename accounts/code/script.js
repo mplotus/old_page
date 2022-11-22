@@ -42,6 +42,8 @@ var page_load = () => {
                         let _expFile = document.createElement('div');
                         _expFile.innerHTML = _accs[i].children[j].innerHTML;
                         _expFile.style.padding = '2px';
+                        _expFile.style.overflow = 'hidden';
+                        _expFile.style.textOverflow = 'ellipsis';
                         if(_accs[i].children[j].nodeName == 'folder') {
                             _expFile.style.paddingLeft = '15px';
                             _expFile.style.fontWeight = 'bold';

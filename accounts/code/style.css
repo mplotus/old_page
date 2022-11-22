@@ -39,7 +39,7 @@ h1 {
 }
 .table_cover {
     display: grid;
-    grid-template-columns: 60% 35% 5%;
+    grid-template-columns: 55% 35% 10%;
     gap: 5px;
 }
 .table_title {
