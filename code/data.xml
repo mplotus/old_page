@@ -62,7 +62,7 @@
                     <icon>#iso</icon>
                 </file>
                 <file id="Windows 11 64bit">
-                    <link></link>
+                    <link>https://drive.google.com/file/d/151Pbv76ls_YF8EkrBPKTdU1iPakrbCTy/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
             </folder>
@@ -73,6 +73,22 @@
             <folder id="Libre">
             </folder>
             <folder id="Microsoft">
+                <file id="Office 2010 ProPlus SP2">
+                    <link>https://drive.google.com/file/d/13Ruf6Xy3J5K1qlhe-oBOBhom68nIcXbM/view?usp=share_link</link>
+                    <icon>#iso</icon>
+                </file>
+                <file id="Office 2013 ProPlus">
+                    <link>https://drive.google.com/file/d/11YXjlbHdKe8Y8j2kTdFCWyjhcyalcbP_/view?usp=share_link</link>
+                    <icon>#iso</icon>
+                </file>
+                <file id="Office 2016 ProPlus">
+                    <link>https://drive.google.com/file/d/1LRJ21-ivB5PHTIRpCS1Q972VS_rPOnQO/view?usp=share_link</link>
+                    <icon>#iso</icon>
+                </file>
+                <file id="Office 2019 ProPlus Volume">
+                    <link>https://drive.google.com/file/d/18Y-05kATPlQoDJcle0yL2VxkQm1jNobv/view?usp=share_link</link>
+                    <icon>#iso</icon>
+                </file>
             </folder>
             <folder id="PDF-Scan-Print">
             </folder>

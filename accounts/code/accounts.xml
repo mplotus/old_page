@@ -24,4 +24,11 @@
         <file>Windows_10_1909_Home_Pro_x64.iso</file>
         <file>Windows_11_x64.iso</file>
     </name>
+    <name id="d01.office.mplotus" class="1222GDrive">
+        <folder>Microsoft</folder>
+        <file>Microsoft_Office_2010_ProPlus_SP2_x86.iso</file>
+        <file>Microsoft_Office_2013_ProPlus_x86.iso</file>
+        <file>Microsoft_Office_2016_ProPlus_x86.iso</file>
+        <file>Microsoft_Office_2019_ProPlus_Volume_x86.iso</file>
+    </name>
 </root>
