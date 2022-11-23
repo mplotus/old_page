@@ -42,27 +42,23 @@
             </folder>
             <folder id="Windows">
                 <file id="Windows 7 32bit">
-                    <link></link>
+                    <link>https://drive.google.com/file/d/1RCJHJmkxLvzUSpaTZR8icJF_7I631zA_/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
                 <file id="Windows 7 64bit">
-                    <link></link>
+                    <link>https://drive.google.com/file/d/1xUZeQtwA1J57GM008uaDMjsJRSIu_Tlv/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
-                <file id="Windows 8.1 32bit">
-                    <link></link>
-                    <icon>#iso</icon>
-                </file>
-                <file id="Windows 8.1 64bit">
-                    <link></link>
+                <file id="Windows 8.1">
+                    <link>https://drive.google.com/file/d/1Omm3oncKaXinsBTBKojJcoUs7aFe0itG/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
                 <file id="Windows 10 1909 32bit">
-                    <link></link>
+                    <link>https://drive.google.com/file/d/1RK1Fw3pYq9gv2Ae2ntc1R9kOgUjSDLsa/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
                 <file id="Windows 10 1909 64bit">
-                    <link></link>
+                    <link>https://drive.google.com/file/d/1pRUj6-jd8Y4vK1-Vv7zmZ2xuCzHPDpHZ/view?usp=share_link</link>
                     <icon>#iso</icon>
                 </file>
                 <file id="Windows 11 64bit">

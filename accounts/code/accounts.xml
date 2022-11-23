@@ -12,4 +12,16 @@
         <file>Windows_Server_2003_x64_SP2_R2_Datacenter.iso</file>
         <file>Windows_Server_2012_x64.iso</file>
     </name>
+    <name id="d01.clientos.mplotus" class="1222GDrive">
+        <folder>Windows</folder>
+        <file>Windows_7_AIO_x86.iso</file>
+        <file>Windows_7_AIO_x64.iso</file>
+        <file>Windows_8.1_AIO.iso</file>
+        <file>Windows_10_1909_Home_Pro_x64.iso</file>
+    </name>
+    <name id="d02.clientos.mplotus" class="1222GDrive">
+        <folder>Windows</folder>
+        <file>Windows_10_1909_Home_Pro_x64.iso</file>
+        <file>Windows_11_x64.iso</file>
+    </name>
 </root>
