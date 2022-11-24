@@ -94,7 +94,7 @@
             </folder>
         </folder>
     </folder>
-    <folder id="Computer Technique and Development">
+    <folder id="Technical and Development">
         <folder id="Server">
             <folder id="Windows Server">
                 <file id="Windows Server 2003">
@@ -118,6 +118,94 @@
                     <icon>#iso</icon>
                 </file>
             </folder>
+        </folder>
+        <folder id="Technical Tools">
+            <file id="AIO Boot">
+                <link>https://drive.google.com/file/d/1t18Dr5Tu8D4PZ_OT4KQ-StMRoV3dNwv_/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="dos app network boot">
+                <link>https://drive.google.com/file/d/12c-UaVkKMp54T2_GSHRWCLQdfKx62qGJ/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Easy BCD 2.4 Portable">
+                <link>https://drive.google.com/file/d/1omjsu_CIIxsU-kO-OfOCpjYy5iXIFQnJ/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="GImageX">
+                <link>https://drive.google.com/file/d/1CCDhbGhreaBS2n_n2173J-vUYjgXJkP2/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NTFS Drive Protection">
+                <link>https://drive.google.com/file/d/1ijEOq9IWltbkYgASPXbjEQSLAla7S6GQ/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Onekey Ghost">
+                <link>https://drive.google.com/file/d/1FA0PciNb7PTSRv6i_BrG3tCy_P851SYb/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Python">
+                <link>https://drive.google.com/file/d/1oB-1ZAv0d9-XSIpWDMHXaK0Z-Ja2Bs6D/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Rufus 3.14">
+                <link>https://drive.google.com/file/d/1C73dfHXHfprsMlJLyB65pQIChgQry8h4/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="qres">
+                <link>https://drive.google.com/file/d/1hDPGSi983ubW1b07XYT8f0bU0dqR8Eby/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Shortcut CMD">
+                <link>https://drive.google.com/file/d/1paIkj7MhhzRPTZ_TErYDN2aOh_PVk6-h/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Syspin CMD">
+                <link>https://drive.google.com/file/d/13FQ0PXblF2qvMmDX4ZvETYVJxOmxkSsY/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Unlocker Master (VMWare macOS)">
+                <link>https://drive.google.com/file/d/1dkVCNlWODBYS3LybcwkvESYxXLNifN5U/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Plpbt 5 (VMWare USB Boot)">
+                <link>https://drive.google.com/file/d/1a7MHOrhoVfS9m6ge2sRYVH6lffYIjLEF/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="VMWare Workstation 14">
+                <link>https://drive.google.com/file/d/1cLcOPXJXFZeQD3ZMF_Rf2gNWwnR1aJzl/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="VMWare Workstation 16">
+                <link>https://drive.google.com/file/d/1t59MP-YM3CkAGhJr4oGImGYPQPwezSD3/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="WinAIO Maker Pro 1.3">
+                <link>https://drive.google.com/file/d/1K_vjF5AQ89nxIY6i3JFEEnHWyDF5Anth/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="WinSetup From USB 1.9">
+                <link>https://drive.google.com/file/d/1jsOF3Kzp4jtBsI-5ALOLvYVf84wGe8Wm/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+        </folder>
+        <folder id="Windows PE">
+            <file id="DLC Boot 2019 3.6">
+                <link>https://drive.google.com/file/d/1vj5I2pVJklJfMfM9Ysrq789dHSkJbI8C/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Hiren's Boot Windows PE">
+                <link>https://drive.google.com/file/d/1tOSPBuDcR1RibxDrMo2nijwze4wb5p0e/view?usp=share_link</link>
+                <icon>#iso</icon>
+            </file>
+            <file id="HKBoot 2020">
+                <link>https://drive.google.com/file/d/1fHxvBmMx8ztion9yva7RgRrOI8qxV420/view?usp=share_link</link>
+                <icon>#iso</icon>
+            </file>
+            <file id="Windows 10 PE 2017">
+                <link>https://drive.google.com/file/d/19c06v1kbjltCfPIYV95Lr6WAqI1Id9t9/view?usp=share_link</link>
+                <icon>#iso</icon>
+            </file>
         </folder>
     </folder>
     <folder id="Web Applications">

@@ -31,4 +31,25 @@
         <file>Microsoft_Office_2016_ProPlus_x86.iso</file>
         <file>Microsoft_Office_2019_ProPlus_Volume_x86.iso</file>
     </name>
+    <name id="d01.devtek.mplotus" class="1222GDrive">
+        <folder>Technical Tools</folder>
+        <file>AIO_Boot.rar</file>
+        <file>dos_app_network_boot.rar</file>
+        <file>EasyBCD_2.4_Portable.rar</file>
+        <file>GImageX.rar</file>
+        <file>NTFS_Drive_Protection.rar</file>
+        <file>Onekey_Ghost.rar</file>
+        <file>Python_Win7_Win10.rar</file>
+        <file>Rufus_3.14.rar</file>
+        <file>ScreenSizeChangeCmd_qres.rar</file>
+        <file>ShortcutCmd.rar</file>
+        <file>SyspinCmd.rar</file>
+        <file>VMWare_macOS_unlocker_master.rar</file>
+        <file>VMWare_USBBoot_plpbt_5.rar</file>
+        <file>VMWare_Workstation_14.rar</file>
+        <file>VMWare_Workstation_16.rar</file>
+        <file>WinAIO_Maker_Pro_1.3.rar</file>
+        <file>WinSetup_From_USB_1.9.rar</file>
+        <folder>Windows PE</folder>
+    </name>
 </root>
