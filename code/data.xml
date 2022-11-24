@@ -78,17 +78,17 @@
             </folder>
             <folder id="Ubuntu">
                 <folder id="GNOME">
-                    <file id="Ubuntu 15.10 - Wily Werewolf">
+                    <file id="Ubuntu 15.10 Wily Werewolf">
                         <link></link>
                         <icon>#</icon>
                     </file>
-                    <file id="Ubuntu 21.10 - Impish Indri">
+                    <file id="Ubuntu 21.10 Impish Indri">
                         <link></link>
                         <icon>#</icon>
                     </file>
                 </folder>
                 <folder id="MATE">
-                    <file id="Ubuntu MATE 22.04 - Jammy Jellyfish">
+                    <file id="Ubuntu MATE 22.04 Jammy Jellyfish">
                         <link></link>
                         <icon>#</icon>
                     </file>
