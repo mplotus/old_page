@@ -48,6 +48,12 @@ var page_load = () => {
                             _expFile.style.paddingLeft = '15px';
                             _expFile.style.fontWeight = 'bold';
                         }
+                        else if(_accs[i].children[j].nodeName == 'volume') {
+                            _expFile.style.paddingLeft = '15px';
+                            _expFile.style.fontWeight = 'bold';
+                            _expFile.style.fontStyle = 'italic';
+                            _expFile.style.color = 'red';
+                        }
                         else {
                             _expFile.style.paddingLeft = '30px';
                             _expFile.style.fontStyle = 'italic';

@@ -2,17 +2,20 @@
 <root>
     <name id="mplotus.github.io" class="1122Google"></name>
     <name id="d01.server.mplotus" class="1222GDrive">
+        <volume>14.44GB</volume>
         <folder>Windows Server</folder>
         <file>Windows_Server_2008_x64.iso</file>
         <file>Windows_Server_2016_x64.iso</file>
         <file>Windows_Server_2019_x64.iso</file>
     </name>
     <name id="d02.server.mplotus" class="1222GDrive">
+        <volume>7.00GB</volume>
         <folder>Windows Server</folder>
         <file>Windows_Server_2003_x64_SP2_R2_Datacenter.iso</file>
         <file>Windows_Server_2012_x64.iso</file>
     </name>
     <name id="d01.clientos.mplotus" class="1222GDrive">
+        <volume>13.53GB</volume>
         <folder>Windows</folder>
         <file>Windows_7_AIO_x86.iso</file>
         <file>Windows_7_AIO_x64.iso</file>
@@ -20,6 +23,7 @@
         <file>Windows_10_1909_Home_Pro_x64.iso</file>
     </name>
     <name id="d02.clientos.mplotus" class="1222GDrive">
+        <volume>14.23GB</volume>
         <folder>Windows</folder>
         <file>Windows_10_1909_Home_Pro_x64.iso</file>
         <file>Windows_11_x64.iso</file>
@@ -28,6 +32,7 @@
         <file>Ubuntu_21.10.iso</file>
     </name>
     <name id="d01.office.mplotus" class="1222GDrive">
+        <volume>6.11GB</volume>
         <folder>Microsoft</folder>
         <file>Microsoft_Office_2010_ProPlus_SP2_x86.iso</file>
         <file>Microsoft_Office_2013_ProPlus_x86.iso</file>
@@ -35,6 +40,7 @@
         <file>Microsoft_Office_2019_ProPlus_Volume_x86.iso</file>
     </name>
     <name id="d01.devtek.mplotus" class="1222GDrive">
+        <volume>13.77GB</volume>
         <folder>Technical Tools</folder>
         <file>AIO_Boot.rar</file>
         <file>dos_app_network_boot.rar</file>
