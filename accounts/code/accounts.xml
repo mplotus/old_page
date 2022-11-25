@@ -23,6 +23,9 @@
         <folder>Windows</folder>
         <file>Windows_10_1909_Home_Pro_x64.iso</file>
         <file>Windows_11_x64.iso</file>
+        <folder>Ubuntu</folder>
+        <file>Ubuntu_15.10.iso</file>
+        <file>Ubuntu_21.10.iso</file>
     </name>
     <name id="d01.office.mplotus" class="1222GDrive">
         <folder>Microsoft</folder>
