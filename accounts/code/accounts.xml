@@ -20,7 +20,7 @@
         <file>Windows_7_AIO_x86.iso</file>
         <file>Windows_7_AIO_x64.iso</file>
         <file>Windows_8.1_AIO.iso</file>
-        <file>Windows_10_1909_Home_Pro_x64.iso</file>
+        <file>Windows_10_1909_Home_Pro_x86.iso</file>
     </name>
     <name id="d02.clientos.mplotus" class="1222GDrive">
         <volume>14.23GB</volume>
@@ -30,6 +30,11 @@
         <folder>Ubuntu</folder>
         <file>Ubuntu_15.10.iso</file>
         <file>Ubuntu_21.10.iso</file>
+    </name>
+    <name id="d03.clientos.mplotus" class="1222GDrive">
+        <volume>2.48GB</volume>
+        <folder>Ubuntu</folder>
+        <file>Ubuntu_MATE_22.04.iso</file>
     </name>
     <name id="d01.office.mplotus" class="1222GDrive">
         <volume>6.11GB</volume>
