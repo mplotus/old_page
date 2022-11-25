@@ -100,7 +100,7 @@ const parent_click = () => {
         let arrPath = extrPath(selectedPath);
         if(arrPath.toString()!='NaN') {
             arrPath.pop();
-            selectedPath = ('/' + arrPath.toString().replace(',','/')).replace('//','/');
+            selectedPath = ('/' + arrPath.toString().replace(/,/g,'/')).replace('//','/');
             change_path(selectedPath);
             load_directory(selectedPath);
         }
