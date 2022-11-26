@@ -37,12 +37,19 @@
         <file>Ubuntu_MATE_22.04.iso</file>
     </name>
     <name id="d01.office.mplotus" class="1222GDrive">
-        <volume>6.11GB</volume>
+        <volume>6.66GB</volume>
         <folder>Microsoft</folder>
         <file>Microsoft_Office_2010_ProPlus_SP2_x86.iso</file>
         <file>Microsoft_Office_2013_ProPlus_x86.iso</file>
         <file>Microsoft_Office_2016_ProPlus_x86.iso</file>
         <file>Microsoft_Office_2019_ProPlus_Volume_x86.iso</file>
+        <folder>PDF Scan</folder>
+        <file>Adobe_Reader_11.rar</file>
+        <file>Foxit_Reader_11.rar</file>
+        <file>NAPS2_portable_win.rar</file>
+        <file>NAPS2_win.rar</file>
+        <file>Nitro_Pro_Enterprise_13_x64.rar</file>
+        <file>Nitro_Pro_Enterprise_13_x86.rar</file>
     </name>
     <name id="d01.devtek.mplotus" class="1222GDrive">
         <volume>13.77GB</volume>
@@ -70,5 +77,72 @@
         <file>HBCD_PE_x64.iso</file>
         <file>HKboot_2020_Rebuild.iso</file>
         <file>Windows_10_PE_2017.iso</file>
+    </name>
+    <name id="d01.winapp.mplotus" class="1222GDrive">
+        <volume>3.11GB</volume>
+        <folder>Archive</folder>
+        <file>7zip_21.zip</file>
+        <file>GoogleDrive.rar</file>
+        <file>PowerISO_7.9.rar</file>
+        <file>UltraISO_9.7.rar</file>
+        <file>WinRAR_601.zip</file>
+        <file>WinZip_25.rar</file>
+        <folder>Browser</folder>
+        <file>Chrome_Offline_x64.rar</file>
+        <file>Chrome_Offline_x86.rar</file>
+        <file>Chrome_Online.exe</file>
+        <file>CocCoc_Offline_EN.rar</file>
+        <file>CocCoc_Offline_VI.rar</file>
+        <file>CocCoc_Online.exe</file>
+        <file>Firefox_EN_x64.rar</file>
+        <file>Firefox_EN_x86.rar</file>
+        <file>Firefox_VI_x64.rar</file>
+        <file>Firefox_VI_x86.rar</file>
+        <folder>Communication</folder>
+        <file>Skype_8.rar</file>
+        <file>Teamviewer_15.rar</file>
+        <file>UltraViewer_6.4.rar</file>
+        <folder>Multimedia</folder>
+        <file>5KPlayer.rar</file>
+        <file>Adobe_Flash_Player.rar</file>
+        <file>Format_Factory_5.9.rar</file>
+        <file>Gimp_2.10.rar</file>
+        <file>GOMPlayer_2.3.rar</file>
+        <file>IcoFX_3.5.rar</file>
+        <file>IMobie_HEIC_Converter.rar</file>
+        <file>Inkscape_1.1_x64.rar</file>
+        <file>Inkscape_1.1_x86.rar</file>
+        <file>KMPlayer_x64.rar</file>
+        <file>KMPlayer_x86.rar</file>
+        <file>Kodi_19.3_x64.rar</file>
+        <file>Kodi_19.3_x86.rar</file>
+        <file>RealPlayer_9.4.rar</file>
+        <file>Universal_Maps_Downloader.rar</file>
+        <file>VLC_3_x64.rar</file>
+        <file>VLC_3_x86.rar</file>
+        <file>Winamp_5.8.rar</file>
+        <folder>Net Framework</folder>
+        <file>netfx3.5.rar</file>
+        <file>netfx4.0.rar</file>
+        <file>netfx4.5.1.rar</file>
+        <file>netfx4.5.2.rar</file>
+        <file>netfx4.6.0.rar</file>
+        <file>netfx4.6.1.rar</file>
+        <file>netfx4.6.2.rar</file>
+        <file>netfx4.7.0.rar</file>
+        <file>netfx4.7.1.rar</file>
+        <file>netfx4.7.2.rar</file>
+        <file>netfx4.8.rar</file>
+        <file>netfx4.8_win8.1.rar</file>
+        <folder>Registry Editor</folder>
+        <file>3D_Objects_Edit.rar</file>
+        <file>All_Folders_Exclude_3D_Objects _Edit.rar</file>
+        <file>Desktop_Edit.rar</file>
+        <file>Documents_Edit.rar</file>
+        <file>Downloads_Edit.rar</file>
+        <file>Music_Edit.rar</file>
+        <file>Pictures_Edit.rar</file>
+        <file>Restore_Windows_Photo_Viewer.rar</file>
+        <file>Videos_Edit.rar</file>
     </name>
 </root>

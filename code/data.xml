@@ -32,8 +32,78 @@
     </folder>
     <folder id="Software Backup">
         <folder id="Archive">
+            <file id="7zip">
+                <link>https://drive.google.com/file/d/1RZ1L97lDM51oB-e5cH27Z7yrhru4KL-E/view?usp=share_link</link>
+                <icon>#zip</icon>
+            </file>
+            <file id="Google Drive">
+                <link>https://drive.google.com/file/d/1ErfNVkH7RINkkROyQI4U5G3IEJR_nRgH/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Power ISO">
+                <link>https://drive.google.com/file/d/16yBDaQTwSP03fxYA_wjT1swM-Shf1Kvi/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Ultra ISO">
+                <link>https://drive.google.com/file/d/1bzty7k-BBB7ZxiWbY5nzGEZz3CQx7gDg/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="WinRAR">
+                <link>https://drive.google.com/file/d/1ZpiFv9wvglA-0_6YuuJ8j0UexcrA_Ms3/view?usp=share_link</link>
+                <icon>#zip</icon>
+            </file>
+            <file id="WinZIP">
+                <link>https://drive.google.com/file/d/1qNW-cqWvL16bltM4BBOKf5tFVHDJQxmw/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
         </folder>
         <folder id="Browser">
+            <file id="Chrome Offline 64bit">
+                <link>https://drive.google.com/file/d/16EXMX6A1wZ283zSyJjPipyHJ2fLfDqir/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Chrome Offline 32bit">
+                <link>https://drive.google.com/file/d/1K6DABTaaWFBNDPyJYQyZFpxS4SHE4ibL/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="CocCoc Offline English">
+                <link>https://drive.google.com/file/d/1KtkD21rczl73tiv_ATQyxoU14emQ6Rhk/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="CocCoc Offline Vietnamese">
+                <link>https://drive.google.com/file/d/1oc-LueIxqczSZn4uI0xPh1-N0EOLoXPi/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Firefox English 64bit">
+                <link>https://drive.google.com/file/d/129NXhC_ep5alEUe3CY6_Wurt-fKFMAFw/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Firefox English 32bit">
+                <link>https://drive.google.com/file/d/1LFTWav0JyBbKfcx4YApgwLt7Uyy11HyN/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Firefox Vietnamese 64bit">
+                <link>https://drive.google.com/file/d/1dk8XRXJ1hLIKMS2Mr6ZvanYHHG9IcV-4/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Firefox Vietnamese 32bit">
+                <link>https://drive.google.com/file/d/11lVoF2NSpUn_vjKrIEr_w_shCE1A6ryD/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+        </folder>
+        <folder id="Communication">
+            <file id="Skype">
+                <link>https://drive.google.com/file/d/1qneYEcUeaG62sub-ahPW0wqvJQ5wRDnJ/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Teamviewer">
+                <link>https://drive.google.com/file/d/1r00umFsRAbHYbf09AC4EiIC7Jk7tTymL/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Ultraviewer">
+                <link>https://drive.google.com/file/d/1FDqd4di36YqBC_ty5-Vjrii84e2nYb1L/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
         </folder>
         <folder id="Graphics">
             <folder id="Adobe Applications">
@@ -44,8 +114,128 @@
             </folder>
         </folder>
         <folder id="Multimedia">
+            <file id="5KPlayer">
+                <link>https://drive.google.com/file/d/19xuEozix-Z3QUk1jZlyyRudl2nCWYBOO/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Adobe Flash Player">
+                <link>https://drive.google.com/file/d/1H-gG69LPvjLfIj8zguvZ700153hmv-iL/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Format Factory">
+                <link>https://drive.google.com/file/d/11lm_M-69eyts8Ad-t1zK4ij2iiIABuMe/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="GIMP">
+                <link>https://drive.google.com/file/d/1o9HEqpFkARfsptAejwARUqpnnyB53Xey/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="GOMPlayer">
+                <link>https://drive.google.com/file/d/14BBvhkvPMB-a1UYJjNokV9EGi55AEh5r/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="IcoFX">
+                <link>https://drive.google.com/file/d/1EpJ5yNIRSSUDFIXbKKnT2OgjbXlGxbTw/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="IMobie HEIC Converter">
+                <link>https://drive.google.com/file/d/1HX1vX4JngG4UyIl3nE2GFqoB5vHKBVNg/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Inkscape 1.1 64bit">
+                <link>https://drive.google.com/file/d/1FsjDs7O0VNCxiXB3tsXE4RUllgVd3ySw/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Inkscape 1.1 32bit">
+                <link>https://drive.google.com/file/d/1BjgpCGQtMcLTkK7Zn3YFO3b-87Ayt6lL/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="KMPlayer 64bit">
+                <link>https://drive.google.com/file/d/1ceeFfcZGyHmsQ6H7V9S4eKWF1dLOhtJg/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="KMPlayer 32bit">
+                <link>https://drive.google.com/file/d/1bqTTUZ6_h-7jb6sfY0potBiEhewk9qS5/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Kodi 64bit">
+                <link>https://drive.google.com/file/d/14rueZmpFCPmmkJRLhxmf-AuWAH_bET98/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Kodi 32bit">
+                <link>https://drive.google.com/file/d/1jM1y2nRbwRjOVfiIoZjJHxZyHacAKe8q/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="RealPlayer">
+                <link>https://drive.google.com/file/d/1WilfWf3p5nYm5mcaE8G9vs0_c4YPvOoh/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Universal Maps Downloader">
+                <link>https://drive.google.com/file/d/1qgD5tVornd7ipL6sBBFD2i_GApPueuL8/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="VLC 3 64bit">
+                <link>https://drive.google.com/file/d/1b1HQYnmWljVNFrnJLYX1gfIfJMhvcKp6/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="VLC 3 32bit">
+                <link>https://drive.google.com/file/d/1GKvMSPyINjEwXM89k8CLfyTWe4CH9MO2/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Winamp 5.8">
+                <link>https://drive.google.com/file/d/1vIuOQwojXLuCMHp92FUytLZsRM4k43Fb/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
         </folder>
         <folder id="NET Framework">
+            <file id="NetFX 3.5">
+                <link>https://drive.google.com/file/d/15ivtO-V6OEiuhzulXldbojcc5zxqKQFK/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.0">
+                <link>https://drive.google.com/file/d/1dCg0YFdpPCEqM30OLLQqotC8mGAV74QE/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.5.1">
+                <link>https://drive.google.com/file/d/1pkdYz6LZv6rhCJ2JROhhqdWmBOaiJZMn/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.5.2">
+                <link>https://drive.google.com/file/d/1g1sE-MkXh-UfGaSJItjJppBveqSk6342/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.6.0">
+                <link>https://drive.google.com/file/d/1Gk19elbrsm7uzBYvNssLGp8GpHnDiH8q/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.6.1">
+                <link>https://drive.google.com/file/d/1_Zi-Uk9NpT6NxU1riq6x5fDn2KwFLFY-/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.6.2">
+                <link>https://drive.google.com/file/d/12c20AEyOkqbEI0Gvj0LpzjOuH3uV6k3F/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.7.0">
+                <link>https://drive.google.com/file/d/1MaJUgS4LpoTbnQE7fN8ExmdoEH6-m8Dh/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.7.1">
+                <link>https://drive.google.com/file/d/1v_kTaWQI1XFA6ZOVlGfIzWhBiBOtE8He/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.7.2">
+                <link>https://drive.google.com/file/d/19n1QrcwFFaiMJQL1kMr1PNJW9UUBRRYY/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.8 Windows 8.1">
+                <link>https://drive.google.com/file/d/1bcZ5B-Pm5v1tuDAD5SsbyQKzdV0CBqgU/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="NetFX 4.8">
+                <link>https://drive.google.com/file/d/1TDNRu0UZVmeViY5nM32ke8M1fzbpm8gk/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
         </folder>
         <folder id="Offices">
             <folder id="Kingsoft">
@@ -71,6 +261,30 @@
                 </file>
             </folder>
             <folder id="PDF-Scan-Print">
+                <file id="Adobe Reader 11">
+                    <link>https://drive.google.com/file/d/1KQXO1d9kv48mK7VfJBgarO0KK5VhteV2/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Foxit Reader 11">
+                    <link>https://drive.google.com/file/d/15VGyAh-mCCUI7IhnGsALil5Wf8u9UzKq/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="NAPS2">
+                    <link>https://drive.google.com/file/d/1FC155wkVVkJcrKr8C2ZrUEsRCoJALky2/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Portable NAPS2">
+                    <link>https://drive.google.com/file/d/1oL5WyKBBcjKOiQ88lfxaGCezNZvHUegv/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Nitro Pro Enterprise 13 64bit">
+                    <link>https://drive.google.com/file/d/1od2fAqsht_mo99XYAEzFMXnE-xPSQjEa/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Nitro Pro Enterprise 13 32bit">
+                    <link>https://drive.google.com/file/d/1snCef4xcq-yK3mq6FxxKeRHyC2XnDNod/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
             </folder>
         </folder>
         <folder id="Operation Systems">
@@ -120,6 +334,44 @@
                     <icon>#iso</icon>
                 </file>
             </folder>
+        </folder>
+        <folder id="Windows Registry Editor">
+            <file id="3D Object Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1OqXe69r4E1dWV5pJh3tidYEgeHop7N1d/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="All folder Windows 10 exclude 3D Objects Edit">
+                <link>https://drive.google.com/file/d/1MfwKSMoYGHli6WgYdiY0lkwitSVTliIL/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Desktop Windows 10 Edit">
+                <link>https://drive.google.com/file/d/15LPlbtDNmZjmmI213aHUdBx89ZEoVsuP/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Documents Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1esdiAWikwAJo80hQW41fdnSJF451_3UQ/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Downloads Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1yvLrvhrS8UkPjWx-O8HqV628FnnFmTcM/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Music Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1aDOKoJMf9gbGjwUgGFhPyLy5H0Fzb2Yd/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Pictures Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1TYXa0CGQ7Cai168_7nU9emnr1HESIdqH/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Videos Windows 10 Edit">
+                <link>https://drive.google.com/file/d/1DUlUbUi1srsmKuI7t28O67K_9lpGRnbv/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
+            <file id="Restore Windows Photo Viewer Windows 10">
+                <link>https://drive.google.com/file/d/1chx5QPcjbKJEPiXhhFE7dqwX_D3mSlHI/view?usp=share_link</link>
+                <icon>#rar</icon>
+            </file>
         </folder>
     </folder>
     <folder id="Technical and Development">
