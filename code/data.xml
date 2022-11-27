@@ -107,10 +107,82 @@
         </folder>
         <folder id="Graphics">
             <folder id="Adobe Applications">
+                <file id="Adobe After Effects CC 2021">
+                    <link>https://drive.google.com/file/d/1ux3pHU9CPDi_DOCRKGQj29WJ2yI31rGS/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe After Effects CS6">
+                    <link>https://drive.google.com/file/d/199cm0chty1wGhUsMFdwS1hyVzHtMTb9O/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Audition CC 2020">
+                    <link>https://drive.google.com/file/d/1hs62M2_CwbSuO3tlzUoYjEK1Ib2verC-/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Audition CS6">
+                    <link>https://drive.google.com/file/d/123JcQjb-xMhm8yb43qEqcQw3my4yTkHc/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Illustrator CC 2021">
+                    <link>https://drive.google.com/file/d/1T3Un3YfNPDldKE3kvGUmE3EuZeQcLrgJ/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Illustrator CS6">
+                    <link>https://drive.google.com/file/d/1PQ206Fe09SEsyBd93HLdMoxMZvrySBvx/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Photoshop CC 2021">
+                    <link>https://drive.google.com/file/d/1r2yC9rc8m3fGwhsaIaDun-SxOg3DbulH/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Photoshop CS6">
+                    <link>https://drive.google.com/file/d/1jvZXqRIbm_vTsNeOWOremHbKTX4ACV1Y/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Premiere Pro CC 2021">
+                    <link>https://drive.google.com/file/d/1iqZNoRRGwMpaQQgo0723So2D5f7otrXU/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Adobe Premiere Pro CS6">
+                    <link>https://drive.google.com/file/d/1rPNE1o5jXwmbAd08eMPonJ8Cx0OmpM8F/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
             </folder>
             <folder id="Autodesk Applications">
+                <file id="Autodesk AutoCAD 2010 64bit">
+                    <link>https://drive.google.com/file/d/1tjLmcZXh2xyGuk_YG41hAckL6aDS0YZL/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Autodesk AutoCAD 2010 32bit">
+                    <link>https://drive.google.com/file/d/1JekB2ESwKESD13SuJx9NKhOk50-0s9mh/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Autodesk AutoCAD 2020 64bit">
+                    <link>https://drive.google.com/file/d/1_4YTgysRaDXQMW3U1ayT5Tr755SqfzVn/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Autodesk AutoCAD 2021 64bit">
+                    <link>https://drive.google.com/file/d/1c5cTOJWvCi0os0yaZVY7mMG66tAmofmR/view?usp=share_link</link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Autodesk">
+                    <link></link>
+                    <icon>#rar</icon>
+                </file>
             </folder>
             <folder id="Corel Applications">
+                <file id="Corel">
+                    <link></link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Corel">
+                    <link></link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Corel">
+                    <link></link>
+                    <icon>#rar</icon>
+                </file>
             </folder>
         </folder>
         <folder id="Multimedia">

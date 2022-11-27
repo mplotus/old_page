@@ -145,4 +145,23 @@
         <file>Restore_Windows_Photo_Viewer.rar</file>
         <file>Videos_Edit.rar</file>
     </name>
+    <name id="d01.graphic.mplotus" class="1222GDrive">
+        <volume>14.62GB</volume>
+        <folder>Adobe</folder>
+        <file>Adobe_After_Effects_CC_2021.rar</file>
+        <file>Adobe_After_Effects_CS6.rar</file>
+        <file>Adobe_Audition_CC_2020.rar</file>
+        <file>Adobe_Audition_CS6.rar</file>
+        <file>Adobe_Illustrator_CC_2021_x64.rar</file>
+        <file>Adobe_Illustrator_CS6.rar</file>
+        <file>Adobe_Photoshop_CC_2021.rar</file>
+        <file>Adobe_Photoshop_CS6.rar</file>
+        <file>Adobe_Premiere_Pro_CC_2021.rar</file>
+        <file>Adobe_Premiere_Pro_CS6.rar</file>
+        <folder>Autodesk</folder>
+        <file>AutoCAD_2010_x64.rar</file>
+        <file>AutoCAD_2010_x86.rar</file>
+        <file>AutoCAD_2020_x64.rar</file>
+        <file>AutoCAD_2021_x64.rar</file>
+    </name>
 </root>
