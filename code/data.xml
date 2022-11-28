@@ -165,22 +165,26 @@
                     <link>https://drive.google.com/file/d/1c5cTOJWvCi0os0yaZVY7mMG66tAmofmR/view?usp=share_link</link>
                     <icon>#rar</icon>
                 </file>
-                <file id="Autodesk">
+                <file id="Autodesk 3Ds Max 2020 64bit">
+                    <link></link>
+                    <icon>#rar</icon>
+                </file>
+                <file id="Autodesk Inventor Pro 2021">
                     <link></link>
                     <icon>#rar</icon>
                 </file>
             </folder>
             <folder id="Corel Applications">
-                <file id="Corel">
-                    <link></link>
+                <file id="CorelDRAW Graphics Suite 2020">
+                    <link>https://drive.google.com/file/d/1WdSxF-4lfx2w65k6PgDBiZ21rZZCUKm5/view?usp=share_link</link>
                     <icon>#rar</icon>
                 </file>
-                <file id="Corel">
-                    <link></link>
+                <file id="CorelDRAW Graphics Suite X6">
+                    <link>https://drive.google.com/file/d/1NPdqa7VQSXZUz1yz4baiq9JsyhBhItmK/view?usp=share_link</link>
                     <icon>#rar</icon>
                 </file>
-                <file id="Corel">
-                    <link></link>
+                <file id="CorelDRAW Graphics Suite X8">
+                    <link>https://drive.google.com/file/d/1Hts8nTEKDtIdhGpdF68LGnbZFmCIC2n6/view?usp=share_link</link>
                     <icon>#rar</icon>
                 </file>
             </folder>

@@ -164,4 +164,12 @@
         <file>AutoCAD_2020_x64.rar</file>
         <file>AutoCAD_2021_x64.rar</file>
     </name>
+    <name id="d02.graphic.mplotus" class="1222GDrive">
+        <volume>xx.xxGB</volume>
+        <folder>Autodesk</folder>
+        <folder>Corel</folder>
+        <file>CorelDRAW_Graphics_Suite_2020.rar</file>
+        <file>CorelDRAW_Graphics_Suite_X6.rar</file>
+        <file>CorelDRAW_Graphics_Suite_X8.rar</file>
+    </name>
 </root>
