@@ -1,11 +1,18 @@
 var left_navigator, left_arrow, about_content, address_path;
-var selectedPath = '';
+var selectedPath = '/';
 var _arrFileType;
 const page_load = () => {
     left_navigator = document.getElementsByClassName('left_navigator')[0];
     left_arrow = document.getElementsByClassName('left_arrow')[0];
     about_content = document.getElementsByClassName('about_content')[0];
     address_path = document.getElementById('address_path');
+    // Get query if contain
+    let qUrl = window.location.href;
+    let _pars = new URLSearchParams(qUrl);
+    let startPath = '...';
+    startPath = _pars.get('folder');
+    if(startPath == null) selectedPath = '/';
+    else startPath = _pars.get('folder');
     // Load data from xml
     let leftContain = document.getElementById('left_contain');
     // Clear left contain before add data
@@ -37,20 +44,26 @@ const page_load = () => {
                 else btt_dir.style.display = 'none';
                 btt_dir.addEventListener('click', btt_dir_click);
                 leftContain.appendChild(btt_dir);
+                if(startPath != null) {
+                    if(btt_dir.innerText.toLowerCase() == startPath.replace(/_/g,' ').toLowerCase()) {
+                        selectedPath = btt_dir.title;
+                        change_path(selectedPath);
+                    }
+                }
             }
+            _arrFileType = new Array();
+            fetch('./code/filetype.xml').then(res => {
+                res.text().then(xml => {
+                    let _parser = new DOMParser();
+                    let _types = _parser.parseFromString(xml, 'application/xml').querySelectorAll('type');
+                    for(i=0; i<_types.length; i++) {
+                        _arrFileType.push([_types[i].id, _types[i].innerHTML]);
+                    }
+                })
+            });
+            load_directory(selectedPath);
         })
     });
-    _arrFileType = new Array();
-    fetch('./code/filetype.xml').then(res => {
-        res.text().then(xml => {
-            let _parser = new DOMParser();
-            let _types = _parser.parseFromString(xml, 'application/xml').querySelectorAll('type');
-            for(i=0; i<_types.length; i++) {
-                _arrFileType.push([_types[i].id, _types[i].innerHTML]);
-            }
-        })
-    });
-    load_directory('/');
 }
 const page_scroll = () => {
     var addBarTop = 0.25 * window.innerHeight + 60;
