@@ -52,7 +52,14 @@ var page_load = () => {
                             _expFile.style.paddingLeft = '15px';
                             _expFile.style.fontWeight = 'bold';
                             _expFile.style.fontStyle = 'italic';
-                            _expFile.style.color = 'red';
+                            _expFile.style.color = 'black';
+                            let fCap = parseFloat(_expFile.innerHTML.substring(0,_expFile.innerHTML.length - 2));
+                            if(!isNaN(fCap)) {
+                                if(fCap <= 10.0) _accLabel.style.backgroundColor = '#000040';
+                                else if(fCap <= 12.0) _accLabel.style.backgroundColor = '#004000';
+                                else if(fCap <= 13.5) _accLabel.style.backgroundColor = '#404000';
+                                else _accLabel.style.backgroundColor = '#400000';
+                            }
                         }
                         else {
                             _expFile.style.paddingLeft = '30px';
